@@ -1,0 +1,43 @@
+.element {
+  position: absolute;
+  z-index: -99;
+}
+
+@media (min-width: 500px) {
+  .element-1 {
+    top: calc(100% - 100%);
+    right: 5rem;
+  }
+
+  .circle-blue > svg {
+    width: 85rem;
+    height: 80.5rem;
+  }
+
+  .circle-baby-blue > svg {
+    width: 70rem;
+    height: 70rem;
+  }
+
+  .element-2 {
+    top: -10rem;
+    left: 5rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .element-1 {
+    top: 20rem;
+    left: 0;
+  }
+
+  .element-2 {
+    top: -20rem;
+    right: 0;
+  }
+
+  .circle-blue > svg {
+    width: 80rem;
+    height: 80rem;
+  }
+}
